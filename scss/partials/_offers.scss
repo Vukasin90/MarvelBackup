@@ -1,0 +1,138 @@
+.offers {
+    width: 100%;
+    background: url("../images/offer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px 0 105px;
+    text-align: center;
+    h2 {
+        text-align: center;
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+}
+
+.offer {
+    width: 360px;
+    display: inline-block;
+    margin: 130px 30px 0 0;
+    cursor: pointer;
+    &:last-child {
+        margin-right: 0;
+    }
+    @include mq(1190px) {
+        margin: 0 0 20px;
+    }
+    @include mq(420px) {
+        width: 100%;
+    }
+}
+
+.offer-info_on_hover {
+    width: 100%;
+    height: 40px;
+    background: $white;
+    text-align: center;
+    color: $txt-dark;
+    font-weight: bold;
+    line-height: 40px;
+    margin-bottom: 2px;
+    opacity: 0;
+}
+
+.offer:hover .offer-info_on_hover {
+    opacity: 1;
+}
+
+.offer-head {
+    width: 100%;
+    height: 212px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offer-one {
+    background: url("../images/price-bg1.png")
+}
+
+.offer-two {
+    background: url("../images/price-bg2.png")
+}
+
+.offer-three {
+    background: url("../images/price-bg3.png")
+}
+
+.offer-type {
+    font-family: $poppins;
+    font-weight: bold;
+    font-size: 15px;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.offer-price {
+    font-family: $montserrat;
+    font-weight: bold;
+    font-size: 60px;
+    color: $white;
+    & sub {
+        font-weight: 100;
+        vertical-align: baseline;
+        font-size: 20px;
+    }
+    & sup {
+        vertical-align: top;
+        font-size: 30px;
+        margin-right: 5px;
+    }
+}
+
+.offer-promo {
+    font-family: $muli;
+    font-size: 13px;
+    color: $light-gray;
+}
+
+.offer-more-info {
+    width: 100%;
+    background: $white;
+    text-align: center;
+    li {
+        list-style-type: none;
+        border-bottom: 1px solid rgba($txt-light-gray, 0.2);
+        display: block;
+        padding: 20px 0;
+        &:first-child {
+            padding-top: 80px;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+}
+
+.offer-cta {
+    width: 100%;
+    height: 45px;
+    background: $white;
+    border: none;
+    font-family: $montserrat;
+    font-size: 14px;
+    font-weight: bold;
+    color: $txt-dark;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+    &:hover {
+        border: 4px solid $white;
+        background: $theme-yellow;
+        box-shadow: 10px 10px 20px rgba($black, 0.20);
+        transform: translate(-3px, -3px);
+        transition: all 200ms ease-in-out;
+    }
+}

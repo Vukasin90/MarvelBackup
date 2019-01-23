@@ -1,0 +1,119 @@
+.services {
+    width: 100%;
+    position: relative;
+    padding-top: 180px;
+    overflow: hidden;
+    @include mq(768px) {
+        padding-top: 80px;
+    }
+}
+
+.service-bg {
+    position: absolute;
+    width: 876px;
+    img {
+        width: 100%;
+    }
+    @include mq(1600px) {
+        width: 613px;
+        bottom: -4px;
+    }
+    @include mq(1164px) {
+        width: 400px;
+    }
+    @include mq(768px) {
+        display: none;
+    }
+}
+
+.service-circle-bg {
+    position: absolute;
+    width: 400px;
+    transform: rotateZ(-34deg) translate(-9px, 145px );
+    opacity: 0.6;
+    img {
+        width: 100%;
+    }
+    @include mq(1200px) {
+        transform: rotateZ(-34deg) translate(-85px, 234px);
+    }
+    @include mq(500px) {
+        transform: rotateZ(13deg) translate(-115px, 341px);
+    }
+}
+
+.services-wrapper {
+    width: 580px;
+    margin-left: auto;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
+    h2 {
+        display: inline-block;
+        text-align: center;
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        color: $txt-dark;
+        text-transform: uppercase;
+        margin-bottom: 90px;
+    }
+    @include mq(768px) {
+        width: 100%;
+        margin: 0 0 100px;
+        text-align: center;
+    }
+    @include mq(500px) {
+        width: 100%;
+    }
+}
+
+.service {
+    width: 48%;
+    display: inline-block;
+    text-align: center;
+    padding: 45px 20px 60px;
+    background: rgba($white, 0.3);
+    h3 {
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 18px;
+        color: $txt-dark;
+    }
+    p {
+        margin-top: 30px;
+        font-family: $montserrat;
+        font-size: 16px;
+        color: $txt-light-gray;
+    }
+    @include mq(768px) {
+        background: none;
+    }
+    @include mq(500px) {
+        width: 100%;
+        display: block;
+        margin: 20px auto;
+        border: 1px solid rgba($txt-light-gray, 0.3);
+    }
+}
+
+.service-icon {
+    margin-bottom: 30px;
+}
+
+.service-first {
+    border-right: 1px solid rgba($txt-light-gray, 0.3);
+    border-bottom: 1px solid rgba($txt-light-gray, 0.3);
+}
+
+.service-last {
+    border-top: 1px solid rgba($txt-light-gray, 0.3);
+    border-left: 1px solid rgba($txt-light-gray, 0.3);
+    margin: -1px 0 0 -5px;
+    @include mq(768px) {
+        margin: -1px 0 0 -10px;
+    }
+    @include mq(500px) {
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,251 @@
+.work-nav-bar {
+    width: 100%;
+    background: $theme-yellow;
+    text-align: center;
+}
+
+.work-nav-bar {
+    padding: 143px 0 55px;
+}
+
+.work-nav-bar h2 {
+    font-weight: bold;
+    font-family: $montserrat;
+    font-size: 30px;
+    color: $black;
+    text-transform: uppercase;
+}
+
+.projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow: hidden;
+    @include mq(1359px) {
+        justify-content: space-between;
+    }
+    @include mq(639px) {
+        justify-content: center
+    }
+}
+
+.project {
+    min-width: 320px;
+    width: 25%;
+    height: 310px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    @include mq(1359px){
+        width: 50%;
+        min-width: 320px;
+    }
+    @include mq(639px) {
+        width: 100%;
+    }
+}
+
+.work-icons {
+    width: 96px;
+    height: 55px;
+    border-radius: 18px;
+    background: $light-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -97px;
+    bottom: 24px;
+    z-index: 1;
+    @include mq(948px) {
+        bottom: 35px;
+    }
+}
+
+.link-icon, .zoom-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background: $theme-yellow;
+    }
+}
+
+.zoom-icon {
+    margin-left: 10px;
+}
+
+.project-overlay {
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+    left: 0;
+    height: 60px;
+    background: $light-gray;
+    padding: 22px 0 0 30px;
+    & h6 {
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 16px;
+        color: $black;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    & span {
+        font-family: $muli;
+        font-size: 10px;
+        @include mq(1680px) {
+            display: block;
+            margin: 5px 0 5px;
+        }
+    }
+    @include mq(1680px) {
+        padding: 15px 0 0 20px;
+    }
+}
+
+.project:hover .project-overlay {
+    bottom: 0;
+    transition: all 300ms ease-in-out;
+}
+
+.project:hover .work-icons {
+    right: 16px;
+    transition: all 400ms ease-in-out;
+}
+
+.project-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    background: rgba($black, 0.5);
+    display: none;
+    // overflow-y: scroll;
+    h1, p {
+        color: $white;
+    }
+}
+
+.modal-wrapper {
+    width: 80vw;
+    padding: 0 100px 50px;
+    margin: 20px 0;
+    background: $white;
+    position: absolute;
+    border-radius: 10px;
+    top: -500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 500ms ease-in-out;
+    h1 {
+        color: $txt-dark;
+        text-align: center;
+        margin: 20px 0;
+        text-transform: uppercase;
+    }
+    p {
+        color: $txt-light-gray;
+        text-align: center;
+        margin: 20px 0;
+    }
+    @include mq(768px) {
+        width: 100%;
+        margin-top: 70px;
+        padding: 0 10px 50px;
+    }
+}
+
+.modal-wrapper-open {
+    top: 55%;
+}
+
+.modal-img {
+    max-width: 700px;
+    margin: 50px auto;
+    img {
+        width: 100%;
+    }
+    @include mq(768px) {
+        margin: 0 auto;
+    }
+}
+
+.modal-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+        display: none
+    }
+    
+    &::-webkit-scrollbar-track {
+        display: none
+    }
+    
+    &::-webkit-scrollbar-thumb {
+        display: none
+    }
+    
+}
+
+.live-preview {
+    width: 127px;
+    height: 43px;
+    background: #ffe400;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-modal-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-block-end-width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    cursor: pointer;
+    @include mq(768px) {
+        top: -24px;
+        right: 7px;
+    }
+}
+
+.close-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 3px;
+    background: $white;
+    transform: rotateZ(42deg);
+    &:after {
+        content: '';
+        width: 20px;
+        height: 3px;
+        background: $white;
+        display: block;
+        transform: rotateZ(96deg);
+    }
+}
+
+.modal-flex-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

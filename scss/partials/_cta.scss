@@ -1,0 +1,62 @@
+.sites-cta {
+    width: 100%;
+    height: 415px;
+    background: url("../images/bg-img2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+    background-attachment: fixed;
+    @include mq(404px) {
+        padding: 65px 0;
+    }
+}
+
+.sites-cta-wrapper {
+    text-align: center;
+    h2 {
+        font-family: $montserrat;
+        font-weight: bold;
+        font-size: 30px;
+        color: $white;
+        text-transform: uppercase;
+        @include mq(404px) {
+            font-size: 22px;
+        }
+    }
+}
+
+.cta-sub {
+    display: block;
+    font-size: 13px;
+    font-family: $muli;
+    text-transform: initial;
+    margin: 5px 0 100px;
+    @include mq(404px) {
+        margin: 45px 0 55px;
+    }
+}
+
+.site-cta-button {
+    width: 170px;
+    height: 50px;
+    background: $white;
+    color: $txt-dark;
+    font-family: $muli;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+
+}
+
+.alt-button {
+    background: $theme-yellow;
+    margin-right: 20px;
+    @include mq(404px) {
+        margin-left: 20px;
+        margin-bottom: 10px;
+        // margin: 0 0 10px 20px;
+    }
+}
