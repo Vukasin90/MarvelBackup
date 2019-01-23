@@ -154,7 +154,7 @@ var modal;
 $('.zoom-icon').click(function() {
     var id = $(this).attr("data-num");
     console.log(id);
-    var modal = $.getJSON(`/work/modal${id}.json`, function(result) {
+    var modal = $.getJSON(`./work/modal${id}.json`, function(result) {
         console.log('radiiii');
         $('.modal-flex-wrap').html(`
             <h1>${modal.responseJSON.heading}</h1>
