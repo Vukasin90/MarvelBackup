@@ -1,6 +1,6 @@
 {
     "heading":"Resto",
-    "img":"images/workMonitor/Resto.PNG",
+    "img":"images/workMonitor/Resto.png",
     "text":"Resto was a personal project of mine. It represents a website for an imaginary restaurant. Technologies used in this project were: HTML, SCSS, and JavaScript, with Gulp and Git as version control system.",
     "link":"https://vukasin90.github.io/Resto/"
 }
