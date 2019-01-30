@@ -1,6 +1,6 @@
 {
     "heading":"My second Portfolio page",
-    "img":"images/workMonitor/secondPortfolio.PNG",
+    "img":"images/workMonitor/secondPortfolio.png",
     "text":"My second portfolio website, I made. The whole website was made with a css gird, along with scss, JavaScript, etc... The point of this project was to demonstrate what I have learned so far, and to showcase my projects.",
     "link":""
 }
