@@ -1,6 +1,6 @@
 {
     "heading":"Wave House",
-    "img":"images/workMonitor/waveHouse.PNG",
+    "img":"images/workMonitor/waveHouse.png",
     "text":"Wave House was a personal project of mine. It was a PSD to HTML project, where I took a design in PhotoShop, and made it according to a PS document. Technologies used in this project were: HTML, SCSS, and JavaScript.",
     "link":"https://vukasin90.github.io/WaveHouse/"
 }
