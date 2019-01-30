@@ -1,6 +1,6 @@
 {
     "heading":"My First portfolio page",
-    "img":"images/workMonitor/firstPortfolio.PNG",
+    "img":"images/workMonitor/firstPortfolio.png",
     "text":"This was my first portfolio page. The point of this was to showcase what I have learned thus far, and to showcase projects I did back then. Technologies used in this project are: html, SASS, jQuery, Jekyll, AJAX.",
     "link":"https://vukasin90.github.io/MyPortfolio/"
 }
