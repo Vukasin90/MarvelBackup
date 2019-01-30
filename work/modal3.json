@@ -1,6 +1,6 @@
 {
-    "heading":"TestJSON3333",
-    "img":"images/workMonitor/Resto.png",
-    "text":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam molestiae est accusamus reprehenderit ex voluptate",
-    "link":"http://addictionteretana.com/teretana/"
+    "heading":"Resto",
+    "img":"images/workMonitor/Resto.PNG",
+    "text":"Resto was a personal project of mine. It represents a website for an imaginary restaurant. Technologies used in this project were: HTML, SCSS, and JavaScript, with Gulp and Git as version control system.",
+    "link":"https://vukasin90.github.io/Resto/"
 }

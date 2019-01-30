@@ -1,6 +1,6 @@
 {
-    "heading":"TestJSON888",
-    "img":"images/workMonitor/waveHouse.png",
-    "text":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam molestiae est accusamus reprehenderit ex voluptate",
-    "link":""
+    "heading":"Wave House",
+    "img":"images/workMonitor/waveHouse.PNG",
+    "text":"Wave House was a personal project of mine. It was a PSD to HTML project, where I took a design in PhotoShop, and made it according to a PS document. Technologies used in this project were: HTML, SCSS, and JavaScript.",
+    "link":"https://vukasin90.github.io/WaveHouse/"
 }

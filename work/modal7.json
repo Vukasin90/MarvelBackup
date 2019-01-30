@@ -1,6 +1,6 @@
 {
-    "heading":"TestJSON7777",
-    "img":"images/workMonitor/airTrafic.png",
-    "text":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam molestiae est accusamus reprehenderit ex voluptate",
-    "link":""
+    "heading":"Air Traffic app",
+    "img":"images/workMonitor/airTrafic.PNG",
+    "text":"Air traffic app was a another personal project of mine, and the goal is to get my hand dirty with vanilla Javascript. It detects your location, and it give's you an info about the airplanes currently flying over you. Technologies used here were: html, scss, vanilla JavaScript, API, JSON.",
+    "link":"https://vukasin90.github.io/airTrafficApp/"
 }

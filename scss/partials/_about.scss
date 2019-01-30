@@ -140,6 +140,11 @@
     }
 }
 
+.about-card:hover {
+    background: $theme-dark;
+    transition: all 500ms ease-in-out;
+}
+
 .about-card:hover p {
     opacity: 1;
     transition: all 500ms ease-in-out;

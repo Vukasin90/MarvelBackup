@@ -75,19 +75,19 @@ function checkPosition() {
         $('.navigation').removeClass('navigation-on_scroll');
     }
 
-    if (window.pageYOffset >= aboutOffset + 500) {
-        $('.num').each(function () {
-            $(this).prop('Counter',0).animate({
-                Counter: $(this).text()
-            }, {
-                duration: 4000,
-                easing: 'swing',
-                step: function (now) {
-                    $(this).text(Math.ceil(now));
-                }
-            });
-        });
-    }
+    // if (window.pageYOffset >= aboutOffset + 500) {
+    //     $('.num').each(function () {
+    //         $(this).prop('Counter',0).animate({
+    //             Counter: $(this).text()
+    //         }, {
+    //             duration: 4000,
+    //             easing: 'swing',
+    //             step: function (now) {
+    //                 $(this).text(Math.ceil(now));
+    //             }
+    //         });
+    //     });
+    // }
 };
 
 window.onscroll = function() {

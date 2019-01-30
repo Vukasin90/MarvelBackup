@@ -165,7 +165,7 @@
 }
 
 .modal-wrapper-open {
-    top: 55%;
+    top: 500px;
 }
 
 .modal-img {
@@ -180,9 +180,7 @@
 }
 
 .modal-open {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
     overflow-y: scroll;
     &::-webkit-scrollbar {
         display: none

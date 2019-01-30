@@ -1,6 +1,6 @@
 {
-    "heading":"TestJSON888",
-    "img":"images/workMonitor/greenEarth.png",
-    "text":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam molestiae est accusamus reprehenderit ex voluptate",
-    "link":""
+    "heading":"Green earth",
+    "img":"images/workMonitor/greenEarth.PNG",
+    "text":"Green Earth was a personal project of mine. It was a PSD to HTML project, where I took a design in PhotoShop, and made it according to a PS document. Technologies used in this project were: HTML, SCSS, and JavaScript, with Gulp and Git as version control system.",
+    "link":"https://vukasin90.github.io/GreenEarth/"
 }

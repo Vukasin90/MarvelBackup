@@ -658,6 +658,10 @@ header {
       width: 100%;
       margin-right: 0; } }
 
+.about-card:hover {
+  background: #212121;
+  transition: all 500ms ease-in-out; }
+
 .about-card:hover p {
   opacity: 1;
   transition: all 500ms ease-in-out; }
@@ -1048,7 +1052,7 @@ header {
       padding: 0 10px 50px; } }
 
 .modal-wrapper-open {
-  top: 55%; }
+  top: 500px; }
 
 .modal-img {
   max-width: 700px;
@@ -1060,9 +1064,7 @@ header {
       margin: 0 auto; } }
 
 .modal-open {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   overflow-y: scroll; }
   .modal-open::-webkit-scrollbar {
     display: none; }
@@ -1439,7 +1441,7 @@ figcaption {
     .more-info-about_me h3 span {
       display: block;
       font-size: 16px;
-      margin: 20px 0 70px; }
+      margin: 20px 0 18px; }
   .more-info-about_me p {
     font-family: "Muli", sans-serif;
     font-size: 14px;
