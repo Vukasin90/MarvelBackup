@@ -1,6 +1,6 @@
 {
     "heading":"Green Test 3",
-    "img":"images/workMonitor/greenTest3.PNG",
+    "img":"images/workMonitor/greenTest3.png",
     "text":"Green Test 2 was a personal project of mine. It was a PSD to HTML project, where I took a design in PhotoShop, and made it according to a PS document. Technologies used in this project were: HTML, SCSS, and JavaScript, with Gulp and Git as version control system.",
     "link":"https://vukasin90.github.io/GreenTest3/"
 }
